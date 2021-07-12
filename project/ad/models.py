@@ -6,4 +6,6 @@ class Ad(models.Model):
     price=models.IntegerField()
     content=models.TextField()
 
-    
+    def __str__(self):
+        return self.name
+        
