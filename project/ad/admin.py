@@ -4,3 +4,4 @@ from .models import Ad
 
 admin.site.register(Ad)
  
+#  admin.site.register(Ad)
