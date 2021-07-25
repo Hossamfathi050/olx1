@@ -8,7 +8,11 @@ class Users(models.Model):
     phone = models.CharField(max_length=12)
     mobile = models.CharField(max_length=12)
     address = models.CharField(max_length=75)
- 
+    website = models.CharField(max_length=75)
+    twitter = models.CharField(max_length=75)
+    instgram = models.CharField(max_length=75)
+    facebook = models.CharField(max_length=75)
+
     def __str__(self):
         return self.fullname
         
