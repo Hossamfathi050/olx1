@@ -40,6 +40,10 @@ INSTALLED_APPS = [
     'ad',
     'users',
     
+
+
+
+    
     
 ]
 
