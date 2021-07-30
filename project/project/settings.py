@@ -41,9 +41,7 @@ INSTALLED_APPS = [
     'users',
     
 
-
-
-    
+   
     
 ]
 
