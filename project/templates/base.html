@@ -156,17 +156,7 @@ UP
                                                <li><a href="{% url 'property:property_list' %}">الفعاليات </a></li>|
     -->
 
-                                            <!--                       
-        <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">الاحصائيات</button>
-            <div id="myDropdown" class="dropdown-content">
-            <a href="#">المرحلة الابتدائية</a>
-            <a href="#">المرحلة المتوسطة</a>
-            <a href="#">المرحلة الثانوية</a>
-            </div>
-        </div>
-                                                
--->
+                                             
 
                                             {% if request.user.is_authenticated %}
                                             <li class="nav-item cta"><a href="{% url 'logout' %}"
